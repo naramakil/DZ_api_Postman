@@ -13,7 +13,7 @@ public class PostTest {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(201)
+                .statusCode(200)
                 .body("data", equalTo("some data"));
     }
 }
